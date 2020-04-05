@@ -1,9 +1,15 @@
 {
-	  "extends": ["semistandard"],
-	  "env": {
+    "parser": "babel-eslint",
+    "extends": ["semistandard"],
+	"env":	{
 		"browser": true,
 		"es6": true
-	  }
+	}
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
     "rules":{
         "indent": [2, "tab"],
         "no-tabs": 0
